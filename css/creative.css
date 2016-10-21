@@ -152,13 +152,28 @@ header {
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
 }
+
+header.careers {
+  min-height: 70%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/portfolio/fullsize/workingbanner.png');
+}
+
+header.about {
+  min-height: 33%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/workingbanner3.png');
+}
+
 header .header-content {
   position: relative;
   text-align: center;
